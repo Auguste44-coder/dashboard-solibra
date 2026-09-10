@@ -1,0 +1,11 @@
+@"
+{
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "."
+}
+"@ | Set-Content -Path "vercel.json" -Encoding UTF8
+
+git add vercel.json
+git commit -m "Add vercel config"
+git push
